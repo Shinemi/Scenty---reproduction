@@ -42,12 +42,8 @@ header{
     max-width: 1150px;
     padding: 10px;
     margin: auto;
-}
-
-header nav{
-    display: flex;
     justify-content: space-between;
-    align-items: center;
+    display: flex;
 }
 
 header ul{
@@ -336,22 +332,84 @@ h1{
     justify-content: center;
     margin: auto;
     max-width: 1150px;
+    padding-bottom: 150px;
+}
+
+#section4 #commentaire{
+    font-style: italic;
+    color: #475569;
 }
 
 #section4 h2{
     font-size: 36px;
+    padding: 80px 0px 60px 0px;
 }
+
+
 
 #section4 div{
     display: grid;
     grid-template-columns:  repeat(3,1fr);
+    gap: 40px;
 }
+
+#section4 #divProfil{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 20px;
+}
+
+#section4 #detailProfil{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
 
 #section4 div article{
     display: flex;
     flex-wrap: wrap;
+    background-color: #F8FAFC;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-#section4>div>article>div{
-    display: grid;
+
+#photoProfilJulien{
+    background-color:#C7D2FE;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #4338CA;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photoProfilMarie{
+    background-color:#FBCFE8;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #BE185D;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photoProfilThomas{
+    background-color:#BBF7D0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #15803D;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
